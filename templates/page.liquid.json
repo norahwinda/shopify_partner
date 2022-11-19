@@ -1,0 +1,136 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "settings": {
+          "padding_top": 28,
+          "padding_bottom": 28
+        }
+      },
+      "4cc42ae7-f6b1-4e7b-982c-307bf6e4110c": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{{page.title}}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "2ab512fb-d260-46d4-9b96-8c8744cdd688": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% if page.title == 'Liquid' %}\nYes, the title is liquid\n{% endif %}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "13aabade-f143-4c31-ba7f-dc09b8eb7470": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{{ 'hello world' | capitalize }}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "d417426f-0f8b-41c9-94bc-5c01196ff24d": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% unless page.title == 'liquid' %}\nPage title is still not Liquid\n{% endunless %}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "fba0b5aa-9f1f-4ed8-adf5-eeec17b9324e": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% if page.title == 'Liquid' %}\nThe page title is Liquid\n{% else %}\nThe page title is not liquid\n{% endif %}",
+          "color_scheme": "background-1",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "8bbbb2af-53c9-4ffb-8975-a55e2e998afa": {
+        "type": "rich-text",
+        "blocks": {
+          "700dabf3-93ca-4c04-b274-467aa9ad9dcb": {
+            "type": "heading",
+            "settings": {
+              "heading": "<p>Object<\/p>",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "700dabf3-93ca-4c04-b274-467aa9ad9dcb"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "background-1",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "10601486-5838-4a5d-92a7-8b19949792f0": {
+        "type": "rich-text",
+        "blocks": {
+          "template--16963003547965__10601486-5838-4a5d-92a7-8b19949792f0-1668847460a738cfcc-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "<p>Tag<\/p>",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "template--16963003547965__10601486-5838-4a5d-92a7-8b19949792f0-1668847460a738cfcc-0"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "background-1",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "6a16fb1d-4732-4e44-b9ec-d6f857c5045f": {
+        "type": "rich-text",
+        "blocks": {
+          "template--16963003547965__6a16fb1d-4732-4e44-b9ec-d6f857c5045f-1668847946c1e4af92-0": {
+            "type": "heading",
+            "settings": {
+              "heading": "<p>Filter<\/p>",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "template--16963003547965__6a16fb1d-4732-4e44-b9ec-d6f857c5045f-1668847946c1e4af92-0"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "background-1",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      }
+    },
+    "order": [
+      "main",
+      "4cc42ae7-f6b1-4e7b-982c-307bf6e4110c",
+      "2ab512fb-d260-46d4-9b96-8c8744cdd688",
+      "13aabade-f143-4c31-ba7f-dc09b8eb7470",
+      "d417426f-0f8b-41c9-94bc-5c01196ff24d",
+      "fba0b5aa-9f1f-4ed8-adf5-eeec17b9324e",
+      "8bbbb2af-53c9-4ffb-8975-a55e2e998afa",
+      "10601486-5838-4a5d-92a7-8b19949792f0",
+      "6a16fb1d-4732-4e44-b9ec-d6f857c5045f"
+    ]
+  }
